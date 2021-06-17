@@ -1,0 +1,43 @@
+<!-- required for map merger, known intial poses case-->
+<launch>
+  <arg name="first_tb3"  default="tb3_1"/>
+  <arg name="second_tb3" default="tb3_2"/>
+  <arg name="third_tb3"  default="tb3_3"/>
+  
+  <arg name="first_tb3_x_pos" default=" 0.5"/>
+  <arg name="first_tb3_y_pos" default=" 2.2"/>
+  <arg name="first_tb3_z_pos" default=" 0.0"/>
+  <arg name="first_tb3_yaw"   default=" 0.0"/>
+
+  <arg name="second_tb3_x_pos" default=" 0.5"/>
+  <arg name="second_tb3_y_pos" default=" 3.5"/>
+  <arg name="second_tb3_z_pos" default=" 0.0"/>
+  <arg name="second_tb3_yaw"   default=" 0.0"/>
+
+  <arg name="third_tb3_x_pos" default=" 0.5"/>
+  <arg name="third_tb3_y_pos" default=" 3.3"/>
+  <arg name="third_tb3_z_pos" default=" 0.0"/>
+  <arg name="third_tb3_yaw"   default=" 0.0"/>
+
+<!-- Map megring (know inital position case)-->
+<group ns="/$(arg first_tb3)/map_merge">
+  <param name="init_pose_x" value="$(arg first_tb3_x_pos)"/>
+  <param name="init_pose_y" value="$(arg first_tb3_y_pos)"/>
+  <param name="init_pose_z" value="$(arg first_tb3_z_pos)"/>
+  <param name="init_pose_yaw" value="$(arg first_tb3_yaw)"/>
+</group>
+<group ns="/$(arg second_tb3)/map_merge">
+  <param name="init_pose_x" value="$(arg second_tb3_x_pos)"/>
+  <param name="init_pose_y" value="$(arg second_tb3_y_pos)"/>
+  <param name="init_pose_z" value="$(arg second_tb3_z_pos)"/>
+  <param name="init_pose_yaw" value="$(arg second_tb3_yaw)"/>
+</group>
+<group ns="/$(arg third_tb3)/map_merge">
+  <param name="init_pose_x" value="$(arg third_tb3_x_pos)"/>
+  <param name="init_pose_y" value="$(arg third_tb3_y_pos)"/>
+  <param name="init_pose_z" value="$(arg third_tb3_z_pos)"/>
+  <param name="init_pose_yaw" value="$(arg third_tb3_yaw)"/>
+</group>
+
+
+</launch>
