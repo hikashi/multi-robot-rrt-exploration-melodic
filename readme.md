@@ -42,7 +42,7 @@ Terminal 2
 
      # source ~/catkin_explore/devel/setup.bash 
      # export TURTLEBOT3_MODEL=waffle_pi
-     # roslaunch roslaunch ros_multitb3 single_tb3_house.launch
+     # roslaunch ros_multitb3 single_tb3_house.launch
 Terminal 3
 
      # source ~/catkin_explore/devel/setup.bash 
