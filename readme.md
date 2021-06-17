@@ -1,4 +1,4 @@
-# Multi-Turtlebot Simulation Exploration based on RRT for Ubuntu Melodic
+# Multirobot Turtlebot3 Simulation Exploration based on RRT for Ubuntu Melodic
 This package is a compilation of the RRT package in a much complete package rather than figuring map merging and other function from other resipotary. 
 This would serve as a self-contained package for the exploration module using simulation for the turtlebot.
 This is tested on Ubuntu 18.04LTS with ROS Melodic.
