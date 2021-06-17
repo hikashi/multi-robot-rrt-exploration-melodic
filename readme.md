@@ -27,12 +27,12 @@ create a new folder called "catkin_explore/src" by executing the following comme
 
     $ sudo mkdir -p ~/catkin_explore/src
     $ cd ~/catkin_explore/src/
-    $ git clone https://github.com/hikashi/multi-robot-explore.git
+    $ git clone https://github.com/hikashi/multi-robot-rrt-exploration-melodic.git
     $ cd ~/catkin_explore
     $ catkin_make
 
 
-## Execution
+## Execution for Single Robot
 The program can be executed using the following comments in three terminal:
 
 Terminal 1
@@ -41,11 +41,32 @@ Terminal 1
 Terminal 2
 
      # source ~/catkin_explore/devel/setup.bash 
-     # roslaunch rrt_exploration_tutorials mutliple_simulated_largeMap.launch 
+     # export TURTLEBOT3_MODEL=waffle_pi
+     # roslaunch roslaunch ros_multitb3 single_tb3_house.launch
 Terminal 3
 
      # source ~/catkin_explore/devel/setup.bash 
-     # roslaunch rrt_exploration three_robots.launch 
+     # export TURTLEBOT3_MODEL=waffle_pi
+     # roslaunch rrt_exploration single_tb3_exploration.launch 
+
+## Execution for Multirobot
+The program can be executed using the following comments in three terminal:
+
+Terminal 1
+
+     # roscore 
+Terminal 2
+
+     # source ~/catkin_explore/devel/setup.bash 
+     # export TURTLEBOT3_MODEL=waffle_pi
+     # roslaunch ros_multitb3 multi_tb3_house.launch 
+Terminal 3
+
+     # source ~/catkin_explore/devel/setup.bash 
+     # export TURTLEBOT3_MODEL=waffle_pi
+     # roslaunch rrt_exploration multi_tb3_exploration.launch 
+
+
 
 ## Exploration Process
 The exploration relies on the correct sequence else rendering with no goal for each of the robot.
