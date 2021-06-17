@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Arguments -->
+  <arg name="model" default="waffle_pi"/>
+  <arg name="map_file" default="$(find turtlebot3_navigation)/maps/map.yaml"/>
+  <!-- <arg name="map_file" default="$(find ros_autonomous_slam)/maps/multi_map.yaml"/> -->
+  
+  <include file="$(find turtlebot3_navigation)/launch/multi_0_turtlebot3_navigation.launch">
+	  <arg name="model" value="$(arg model)" />
+	  <arg name="map_file" default="$(arg map_file)" />
+  </include>
+  <include file="$(find turtlebot3_navigation)/launch/multi_1_turtlebot3_navigation.launch">
+	  <arg name="model" value="$(arg model)" />
+	  <arg name="map_file" default="$(arg map_file)" />
+  </include>
+  <include file="$(find turtlebot3_navigation)/launch/multi_2_turtlebot3_navigation.launch">
+	  <arg name="model" value="$(arg model)" />
+	  <arg name="map_file" default="$(arg map_file)" />
+  </include>
+
+
+  <!-- rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find turtlebot3_navigation)/rviz/multi_turtlebot3_navigation.rviz"/>
+</launch>
