@@ -33,6 +33,7 @@ create a new folder called "catkin_explore/src" by executing the following comme
 
 ## Add in Amazon Map
 add in the amazon world map by executing the following comments:
+
     $ cd ~/catkin_explore
     $ git clone https://github.com/aws-robotics/aws-robomaker-small-house-world.git
     $ git clone https://github.com/aws-robotics/aws-robomaker-bookstore-world.git
