@@ -31,6 +31,14 @@ create a new folder called "catkin_explore/src" by executing the following comme
     $ cd ~/catkin_explore
     $ catkin_make
 
+## Add in Amazon Map
+add in the amazon world map by executing the following comments:
+    $ cd ~/catkin_explore
+    $ git clone https://github.com/aws-robotics/aws-robomaker-small-house-world.git
+    $ git clone https://github.com/aws-robotics/aws-robomaker-bookstore-world.git
+    $ cd ~/catkin_explore
+    $ catkin_make
+    
 
 ## Execution for Single Robot
 The program can be executed using the following comments in three terminal:
