@@ -85,6 +85,13 @@ The exploration relies on the correct sequence else rendering with no goal for e
 4. Top Right
 5. Initial Point
 
+## Saving Map
+Save the map using the following command:
+
+    # rosrun map_server map_saver -f mymap
+    
+
+
 ## known issues
 1. the map merging will shift a lot if the slam drifting too severe.
 2.  shifting causing the frontier point remains even after explored.
