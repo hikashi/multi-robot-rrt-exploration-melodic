@@ -85,4 +85,7 @@ The exploration relies on the correct sequence else rendering with no goal for e
 4. Top Right
 5. Initial Point
 
-
+## known issues
+1. the map merging will shift a lot if the slam drifting too severe.
+2.  shifting causing the frontier point remains even after explored.
+3. sometimes robots will take some time to move to new plan.
