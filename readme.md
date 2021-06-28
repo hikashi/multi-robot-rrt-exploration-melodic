@@ -86,7 +86,3 @@ The exploration relies on the correct sequence else rendering with no goal for e
 5. Initial Point
 
 
-## Next milestone
-- fix the collision avoidance and path planning of the move base
-- add in more maps for the simulation
-- modify the turtlebot to adapt different SLAM methods
