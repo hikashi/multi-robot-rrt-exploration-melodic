@@ -85,6 +85,8 @@ The exploration relies on the correct sequence else rendering with no goal for e
 4. Top Right
 5. Initial Point
  ![Instruction](/instruction2.png)
+ Things to note: 5th initial point should be within the known map or preferable close to the robot starting point. 
+ 
  
 ## Saving Map
 Save the map using the following command:
