@@ -84,7 +84,8 @@ The exploration relies on the correct sequence else rendering with no goal for e
 3. Bottom Right
 4. Top Right
 5. Initial Point
-
+ ![Instruction](/instruction2.png)
+ 
 ## Saving Map
 Save the map using the following command:
 
