@@ -97,5 +97,7 @@ Save the map using the following command:
 
 ## known issues
 1. the map merging will shift a lot if the slam drifting too severe.
-2.  shifting causing the frontier point remains even after explored.
+2. shifting causing the frontier point remains even after explored.
 3. sometimes robots will take some time to move to new plan.
+4. The revenue function is awkwardly computing large negative value and hence the navigation cost seem insignificant. (inherited from the original RRT exploration)
+5.  assignment of the goal is not close to suboptimal. May need to perform optimization on the goal allocation.
