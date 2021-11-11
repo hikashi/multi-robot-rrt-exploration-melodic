@@ -94,7 +94,10 @@ Save the map using the following command:
 
     # rosrun map_server map_saver -f mymap
     
-
+## How to speed up Gazebo
+- Try to download the [online models](https://github.com/osrf/gazebo_models) and put inside ".gazebo/models/" folder 
+- Try not run a lot process in the background (simulation is cpu intensive)
+- RVIZ might take up some of the computing power, can try to drop some topic if needed.
 
 ## known issues
 1. the map merging will shift a lot if the slam drifting too severe.
