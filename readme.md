@@ -12,10 +12,9 @@ credit to hasauino for creating the RRT exploration packages.
 
 Example of the video running RRT Exploration is shown below:
 
-[RRT Exploration for Ubuntu 18.04 ROS Melodic](https://youtu.be/2VntIlG6zmE "RRT Exploration").
+[RRT Exploration for Ubuntu 18.04 ROS Melodic](https://www.youtube.com/watch?v=2VntIlG6zmE  "RRT Exploration").
 
-
-[![RRT Exploration for Ubuntu 18.04 ROS Melodic](https://img.youtube.com/vi/CRymm0xTdMo/0.jpg)](https://www.youtube.com/watch?v=CRymm0xTdMo "RRT Exploration for Ubuntu 18.04 ROS Melodic")
+[![RRT Exploration for Ubuntu 18.04 ROS Melodic](https://img.youtube.com/vi/2VntIlG6zmE/0.jpg)](https://www.youtube.com/watch?v=2VntIlG6zmE "RRT Exploration for Ubuntu 18.04 ROS Melodic")
 
 
 
