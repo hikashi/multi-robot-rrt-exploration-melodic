@@ -1,4 +1,4 @@
-# Multirobot Turtlebot3 Simulation Exploration based on RRT for Ubuntu 18.04 ROS Melodic
+# Multirobot Turtlebot3 Explore Unknown Environment Simulation based on RRT Exploration for Ubuntu 18.04 ROS Melodic
 This package is a compilation of the RRT package in a much complete package rather than figuring map merging and other function from other resipotary. 
 This would serve as a self-contained package for the exploration module using simulation for the turtlebot.
 This is tested on Ubuntu 18.04LTS with ROS Melodic.
@@ -12,8 +12,10 @@ credit to hasauino for creating the RRT exploration packages.
 
 Example of the video running RRT Exploration is shown below:
 
-https://youtu.be/2VntIlG6zmE
-[![Boolean Enabled TM RRT Exploration](https://img.youtube.com/vi/CRymm0xTdMo/0.jpg)](https://www.youtube.com/watch?v=CRymm0xTdMo "Boolean Enabled TM RRT Exploration")
+[RRT Exploration for Ubuntu 18.04 ROS Melodic](https://youtu.be/2VntIlG6zmE "RRT Exploration").
+
+
+[![RRT Exploration for Ubuntu 18.04 ROS Melodic](https://img.youtube.com/vi/CRymm0xTdMo/0.jpg)](https://www.youtube.com/watch?v=CRymm0xTdMo "RRT Exploration for Ubuntu 18.04 ROS Melodic")
 
 
 
