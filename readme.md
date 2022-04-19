@@ -10,6 +10,13 @@ credit to hasauino for creating the RRT exploration packages.
 [RRT Exploration Tutorial package](https://github.com/hasauino/rrt_exploration_tutorials "RRT Exploration").
 
 
+Example of the video running RRT Exploration is shown below:
+
+https://youtu.be/2VntIlG6zmE
+[![Boolean Enabled TM RRT Exploration](https://img.youtube.com/vi/CRymm0xTdMo/0.jpg)](https://www.youtube.com/watch?v=CRymm0xTdMo "Boolean Enabled TM RRT Exploration")
+
+
+
 ## Requirements
 The following code is exectuted in ROS Melodic in Ubuntu 18.04 LTS
 
